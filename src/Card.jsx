@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Link from "./Link";
 import image from "./assets/images/avatar-jessica.jpeg";
 
 export default function Card() {
@@ -12,13 +12,13 @@ export default function Card() {
       <q className="m-6 text-sm font-normal text-white">
         Front-end developer and avid reader
       </q>
-      <div className="flex flex-col items-center justify-center gap-4">
-        <Button title="Github" />
-        <Button title="Frontent Mentor" />
-        <Button title="LinkedIn" />
-        <Button title="Twitter" />
-        <Button title="Instagram" />
-      </div>
+      <ul className="flex flex-col items-center justify-center gap-4">
+        <Link URL="https://github.com/korniykom" title="Github" />
+        <Link title="Frontent Mentor" />
+        <Link title="LinkedIn" />
+        <Link title="Twitter" />
+        <Link title="Instagram" />
+      </ul>
     </div>
   );
 }
