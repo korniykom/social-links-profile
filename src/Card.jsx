@@ -3,7 +3,7 @@ import image from "./assets/images/avatar-jessica.jpeg";
 
 export default function Card() {
   return (
-    <div className="flex h-[579px] w-[327px] flex-col items-center rounded-xl bg-[#1f1f1f]">
+    <div className="flex min-h-[579px] w-[327px] flex-col items-center rounded-xl bg-[#1f1f1f]">
       <img src={image} alt="Jessica" className="m-6 w-[88px] rounded-full" />
       <div className="text-center font-semibold">
         <h1 className="mb-1 text-2xl text-white">Jessica Randall</h1>

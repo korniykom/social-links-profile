@@ -7,7 +7,7 @@ import Card from "./Card";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <main className="flex h-dvh w-dvw items-center justify-center bg-[#141414]">
-      <Card></Card>
+      <Card />
     </main>
   </StrictMode>,
 );
